@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORT</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(fondosi.jpg);
+        }
+        header {
+            background-image: url(fondono.jpg);
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .noticias {
+            background-color: #cbfcbd;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .resultados {
+            background-color: #b69cff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .calendario {
+            background-color: #00e1ff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .calendar {
+            font-family: Arial, sans-serif;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        
+        .weekdays {
+            display: flex;
+            justify-content: space-between;
+            background-color: #ccc;
+            padding: 5px;
+        }
+
+        .weekday {
+            width: calc(100% / 7);
+            text-align: center;
+        }
+
+        table {
+            width: 80%; 
+            border-collapse: collapse; 
+            margin: 20px auto;
+        }
+
+       
+        tr:nth-child(even) {
+            background-color: #f2f2f2; 
+        }
+
+       
+        th, td {
+            padding: 10px; 
+            text-align: left; 
+            border-bottom: 1px solid #ddd; 
+        }
+
+   
+        th {
+            background-color: #333; 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SPORT</h1> <img src="logo.jpg" width="50" height="50">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+            <li><a href="#calendario">Calendario</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="noticias" class="noticias">
+            <h2>Últimas Noticias</h2>
+            <img src="noticia1.png"  width="350"  height="350">
+            <h3>Segunda fecha de las eliminatorias: hora y canal para ver todos los partidos</h3>
+            <p>Colombia vs. Chile será el partido de la selección de Néstor Lorenzo este martes. De la jornada se destaca el Ecuador vs. Uruguay en Quito.</p>
+            <p>Este martes 12 de septiembre, con la segunda fecha de las eliminatorias, continúa el camino sudamericano rumbo al Mundial de 2026, que se hará en Estados Unidos, México y Canadá.</p>
+            
+            <img src="noticia2.png" width="350"  height="350">
+            <h3>En Inglaterra, las subcampeonas del mundo reclaman a su federación por falta de pagos</h3> 
+            <p>Luego del mundial femenino, España, las campeonas del mundo, no fue la única federación envuelta en polémica por las discrepancias con sus jugadores.
+
+                Inglaterra, las subcampeonas del mundo, también están en medio de una disputa, aunque piramente económica, pues en este caso no hubo ningún caso de abus sexual.</p>
+                <p>Resulta que las futbolistas de la selección inglesa aún no han llegado a un acuerdo con la federación inglesa (FA, por sus siglas en inglés) por el reparto de primas en los campeonatos internacionales.</p>
+           
+            <img src="noticia3.png"  width="350"  height="350">
+            <h3>A Millonarios le expulsaron dos y, con nueve jugadores, perdió contra Santa Fe</h3>
+            <p>En medio de la lluvia incesante, en un partido fuera de contexto, los leones ganaron un juego caótico en El Campín de Bogotá.</p>
+            <p>Santa Fe le ganó 4-2 a Millonarios este domingo en la décima fecha de la Liga BetPlay, la jornada de clásicos del fútbol colombiano.
+            </p>
+            <p>El partido fue caótico. Primero, por el diluvio que cayó durante todo el partido y, después, por las dos expulsiones de Millonarios, en la parte inicial de Macalister Silva (45′) y en el complemento de Daniel Giraldo (47′). Dos rojas justas que cambiaron el curso del compromiso.
+            </p>
+
+            <img src="notica4.png" width="350"  height="350" >
+            <h3>La Vuelta entra en su semana final, ¿quién podrá con el Jumbo?</h3>
+            <p>Comienza la última semana de La Vuelta a España. Sepp Kuss, de Jumbo Visma, es el líder de la clasificación general.</p>
+            <p>Dos semanas han pasado desde que la Vuelta a España bajó la bandera en Barcelona, dos semanas en las que la ronda ibérica ha sido fiel a su lema: Pasión y Emoción. Primero los padecimientos (pasión viene de padecer búsquenlo en el diccionario), los primeros días fueron un verdadero calvario para la organización, con feroces temporales, ataques terroristas en Cataluña y accidentes en las llegadas. Pero después de la tormenta vino la calma y la segunda semana resultó plena de espectáculo deportivo, ahora si la Emoción.</p>
+
+            <img src="noticia5.png" width="350" height="350" >
+            <h3>Atlético Nacional se durmió y dejó a una joya sin Libertadores</h3>
+            <p>La mítica Copa Libertadores que jugará Atlético Nacional cerró su período de inscripción de futbolistas el pasado 8 de septiembre.</p>
+            <p>En Colombia, apenas un club se ha podido coronar en la mítica Copa Libertadores Femenina, siendo aquel Atlético Huila de 2018; por su parte, en el formato masculino han sido dos escuadras las vencedoras, Atlético Nacional (1989 y 2016) y Once Caldas (2004).</p>
+
+            </section>
+
+        <section id="resultados" class="resultados">
+            <h2>Resultados Recientes</h2>
+            <h3>Amistosos Internacionales De Futbol</h3>
+            <table border="1">
+                <tr>
+                    <th>Equipos</th>
+                    <th>Resultados</th>
+                </tr>
+                <tr>
+                    <td>Myanmar vs Nepal
+                    </td>
+                    <td>1 - 0</td>
+                </tr>
+                <tr>
+                    <td>Cambodia vs 
+                        Macau</td>
+                    <td>4 - 0</td>
+   
+                </tr>
+                <tr>
+                    <td>
+                        Hong Kong vs Brunei Darussalam</td>
+                    <td>10 - 0</td>
+   
+                </tr>
+                <tr>
+                    <td>
+                        Vietnam vs Palestina</td>
+                    <td>2 - 0</td>
+ 
+                </tr>
+            </table>
+            <h2></h2>
+            <h3>Amistosos basketball</h3>
+            <table border="1">
+                <tr>
+                    <th>Equipos</th>
+                    <th>Resultados</th>
+                </tr>
+                <tr>
+                    <td>Ramat Hasharon (Isr) vs Elitzur Ashkelon (Isr)</td>
+                    <td>73
+                        17
+                        20
+                        22
+                        14 - 86
+                        31
+                        13
+                        14
+                        28</td>
+                </tr>
+                <tr>
+                    <td>Fenerbahçe (Tur) vs Kapakli Spor (Tur)</td>
+                    <td>84
+                        23
+                        23
+                        19
+                        19
+                        - 81
+                        25
+                        17
+                        22
+                        17</td>
+   
+                </tr>
+                <tr>
+                    <td>SCM Craiova (Rou) vs CSM Targu Mures (Rou)
+                    </td>
+                    <td>65
+                        23
+                        12
+                        10
+                        20
+                         - 69
+                         11
+                         12
+                         23
+                         23</td>
+   
+                </tr>
+                <tr>
+                    <td>Anwil Wloclawek (Pol) vs Wurzburg (Ger)</td>
+                    <td>74
+                        20
+                        14
+                        19
+                        21 - 81
+                        14
+                        26
+                        18
+                        23
+                    </td>
+ 
+                </tr>
+            </table>
+        </section>
+        <section id="calendario" class="calendario">
+            <h2>Calendario de Eventos</h2>
+            <table>
+                <tr>
+                    <th>EVENTOS</th>
+                    <th>Fecha</th>
+                </tr>
+                <tr>
+                    <td> Final de la Champions League de fútbol femenino</td>
+                    <td>3 de Junio de 2023</td>
+                </tr>
+                <tr>
+                    <td> Final de la Champions League de fútbol masculino</td>
+                    <td>10 de Junio de 2023</td>
+                </tr>
+                <tr>
+                    <td> CICLISMO EN RUTA: Tour de Francia</td>
+                    <td>1-23 de julio</td>
+                </tr>
+
+                <tr>
+                    <td> FÚTBOL: Copa Mundial de fútbol femenino</td>
+                    <td>20 de julio-20 de agosto</td>
+                </tr>
+
+                <tr>
+                    <td>. BALONCESTO: Mundial masculino</td>
+                    <td>25 de agosto-10 de septiembre.</td>
+        
+                </tr>
+            </table>
+    <footer>
+        <p>&copy; 2023 SPORT</p>
+    </footer>
+</body>
+</html>
